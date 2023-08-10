@@ -1,0 +1,31 @@
+.heros {
+    background: url(/src/photos/bg13.webp)rgba(0, 0, 0, 0.655);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+    max-width: 100%;
+    background-blend-mode: darken;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;  
+    
+}
+
+span{
+    text-decoration: none !important;
+}
+
+.bot{
+    background-color: rgba(0, 255, 255, 0.296) !important;
+    color: rgb(0, 0, 0) !important;
+    height: 50px;
+    width: auto;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.bot:hover{
+    background-color: aqua !important;
+    font-weight: 700 !important;
+}

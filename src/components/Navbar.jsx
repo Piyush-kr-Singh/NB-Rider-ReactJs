@@ -22,7 +22,12 @@ export default function Navbar(Props) {
                     <li className="nav-item">
                         <Link className="nav-link" to='/about'>About</Link>
                     </li>
-                    
+                    <li className="nav-item">
+                        <Link className="nav-link" to='/reviews'>Reviews</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to='/'>Blogs</Link>
+                    </li>
                     <li className="nav-item">
                         <Link className="nav-link" to='/'>Contact</Link>
                     </li>

@@ -27,7 +27,7 @@ const HomeSection = () => {
             </section>
 
 
-            <FAQ className='container' />
+            <FAQ  />
         </div>
         </>
     )

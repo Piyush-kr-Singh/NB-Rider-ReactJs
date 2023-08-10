@@ -1,0 +1,48 @@
+
+
+.insta{
+    font-size: 2vw;
+}
+.insta:hover
+{
+    color: #d62976;
+    cursor: pointer;
+}
+
+.discord
+{
+    font-size: 2vw;
+}
+.discord:hover{
+    color:rgb(57, 75, 180);
+    cursor: pointer;
+}
+
+
+.youtube{
+    font-size: 2vw;
+}
+.youtube:hover{
+    color: rgb(235, 15, 23);
+    cursor: pointer;
+}
+
+.fb
+{
+    font-size: 2vw;
+}
+.fb:hover{
+    color: #4267B2;
+    cursor: pointer;
+}
+
+.github
+{
+    font-size: 2vw;
+}
+.github:hover
+{
+    color: black;
+    cursor: pointer;
+}
+

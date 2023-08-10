@@ -10,6 +10,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Reviews from './components/Reviews';
 
 function App() {
   
@@ -23,16 +24,12 @@ function App() {
       <Routes>
       <Route path='/' element={<Home />}/>
       <Route exact path="/about" element={<About />}/> 
+      <Route exact path="/reviews" element={<Reviews />}/>
       </Routes>
       
       
     <div className="container my-3">
     <Routes>
-    
-      
-      {/* <Route path='/exchanges' element={<Exchanges mode={bg} text={color}/>}/>
-      <Route path='/coins' element={<Coins mode={bg} text={color}/>}/>
-      <Route path="/coin/:id" element={<CoinDetails />} /> */}
     </Routes>
     </div>
     </BrowserRouter>
