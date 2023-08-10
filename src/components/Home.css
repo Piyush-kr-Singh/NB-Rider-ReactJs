@@ -1,0 +1,75 @@
+
+
+.containers {
+    width: 100%;
+    top: 20vh;
+    position: relative;
+}
+
+
+.hero {
+    background: url(/src/photos/bg01.jpg)rgba(0,0,0,0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+    max-width: 100%;
+    background-blend-mode: darken;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btns {
+    display: inline-block;
+    background-color: rgba(0, 255, 255, 0.485);
+    color: rgba(0, 0, 0, 0.624) !important;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.btns:hover{
+    background-color: aqua;
+    color: black !important;
+}
+
+.features {
+    padding: 80px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    font-size: 24px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+span{
+    color: aqua;
+    text-decoration: underline;
+}

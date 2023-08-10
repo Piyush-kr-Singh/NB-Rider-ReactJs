@@ -1,0 +1,98 @@
+/* Reset some default styles for consistency */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply styling to the container */
+  .max-w {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Style for the heading */
+  .text {
+    color: #212121;
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem;
+  }
+  
+  .text-5xl {
+    font-size: 2.5rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-green-500 {
+    color: #00C853;
+  }
+  
+  /* Style for the paragraph */
+  .text-gray-600 {
+    color: #666666;
+  }
+  
+  .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  /* Grid styles */
+  .grid {
+    display: grid;
+  }
+  
+  .grid-rows-none {
+    grid-template-rows: none;
+  }
+  
+  .md-grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  
+  .gap-2 {
+    gap: 0.5rem;
+  }
+  
+  .md-gap-4 {
+    gap: 1rem;
+  }
+  
+  /* Style for images */
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  .col-span-2 {
+    grid-column: span 2;
+  }
+  
+  .md-col-span-3 {
+    grid-column: span 3;
+  }
+  
+  .row-span-2 {
+    grid-row: span 2;
+  }
+  

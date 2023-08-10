@@ -1,0 +1,21 @@
+.accordion-header
+{
+    color: rgb(0, 5, 5) !important;
+    font-weight: 500 !important;
+    background-color: rgba(0, 0, 0, 0.878) !important;
+}
+
+.accordion-button {
+    color: rgb(8, 218, 250) !important;
+    font-weight: 600;
+    font-size: 1.7vw;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(0, 0, 0, 0.139) !important;
+}
+
+.accordion-body{
+    background-color: rgba(0, 0, 0, 0.591) !important;
+    color: white;
+}
