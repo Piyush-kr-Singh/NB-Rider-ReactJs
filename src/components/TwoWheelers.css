@@ -1,0 +1,11 @@
+.btnss{
+    background-color: rgba(104, 230, 247, 0.571) !important;
+    color: rgba(0, 0, 0, 0.724) !important;
+    font-weight: 600 !important;
+}
+
+.btnss:hover{
+    background-color: aqua !important;
+    color: black !important;
+    font-weight: 700 !important;
+}

@@ -16,7 +16,7 @@ const Home = () => {
             <div className="containers">
               <h1 style={{ fontFamily: 'cursive' }}>Ride to your own tune with <span style={{ fontFamily: 'Times new Roman' }}>NB Rider</span> <br /> </h1>
               <p style={{ fontFamily: 'serif', fontSize: '25px' }}>Discover a world of two-wheelers and four-wheel wonders!</p>
-              <Link to='/' className="btns">Get Started</Link>
+              <Link to='/reviews' className="btns">Get Started</Link>
             </div>
           </div>
         </header>

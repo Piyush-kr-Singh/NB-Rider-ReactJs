@@ -11,6 +11,8 @@ import {
   Route,
 } from "react-router-dom";
 import Reviews from './components/Reviews';
+import TwoWheelers from './components/TwoWheelers';
+import FourWheeler from './components/FourWheeler';
 
 function App() {
   
@@ -25,6 +27,8 @@ function App() {
       <Route path='/' element={<Home />}/>
       <Route exact path="/about" element={<About />}/> 
       <Route exact path="/reviews" element={<Reviews />}/>
+      <Route exact path="/twowheeler" element={<TwoWheelers />}/>
+      <Route exact path="/fourwheeler" element={<FourWheeler />}/>
       </Routes>
       
       
