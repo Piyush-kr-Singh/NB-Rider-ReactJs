@@ -13,6 +13,7 @@ import {
 import Reviews from './components/Reviews';
 import TwoWheelers from './components/TwoWheelers';
 import FourWheeler from './components/FourWheeler';
+import VehicleDetails from './components/VehicleDetails';
 
 function App() {
   
@@ -29,6 +30,7 @@ function App() {
       <Route exact path="/reviews" element={<Reviews />}/>
       <Route exact path="/twowheeler" element={<TwoWheelers />}/>
       <Route exact path="/fourwheeler" element={<FourWheeler />}/>
+      <Route exact path="/vehicledetails" element={<VehicleDetails />}/>
       </Routes>
       
       

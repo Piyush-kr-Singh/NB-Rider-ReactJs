@@ -6,8 +6,16 @@ import royal from '../photos/royal.jpeg';
 import splendor from '../photos/splendor.jpg';
 import tvs from '../photos/tvs.jpg';
 import './TwoWheelers.css';
+import { Link } from 'react-router-dom';
 
 const TwoWheelers = () => {
+
+    const handleClick = () => {
+        window.scrollTo(0, 0);
+        
+    };
+
+
     return (
         <>
             <div className='container mt-5'>
@@ -24,7 +32,7 @@ const TwoWheelers = () => {
                                 <p align='center' class="card-text mb-3">Price : ₹1,71,000</p>
 
                                 <div class="d-flex justify-content-center">
-                                    <a href="#" class="btn btnss">View Details</a>
+                                    <Link to="/vehicledetails" class="btn btnss" onClick={() => handleClick()}>View Details</Link>
                                 </div>
                             </div>
                         </div>

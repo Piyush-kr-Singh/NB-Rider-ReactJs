@@ -11,6 +11,7 @@ const Reviews = () => {
 
     const handleClick = (selectedPreference) => {
         setPreference(selectedPreference);
+        
     };
 
 
