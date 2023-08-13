@@ -2,9 +2,10 @@
   "vehicles": [
     {
       "id": 1,
-      "vehicletype": "twowheelers",
+      "vehicle": "Two-Wheelers",
       "details": [
         {
+          "id":1,
           "name": "Bajaj Pulsar 200RS",
           "insights": [
             {
@@ -18,178 +19,163 @@
               "mileage": "16.2km/l",
               "engine capacity": "350cc"
             }
-          ]
+          ],
+          "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSSYi9u5rjUKi8QlHQEjWQD2l7QMUMiVomrw&usqp=CAU"
+        },
+        {
+          "id":2,
+          "name": "Splendor 200RS",
+          "insights": [
+            {
+              "url1": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url2": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url3": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+
+              "showroom price": "1,71,000",
+              "onroad price": "1,99,000",
+              "engine configuration": "Petrol",
+              "mileage": "16.2km/l",
+              "engine capacity": "350cc"
+            }
+          ],
+          "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSSYi9u5rjUKi8QlHQEjWQD2l7QMUMiVomrw&usqp=CAU"
         },
 
         {
-          "name": "Discrete Mathematics",
-          "notes": [
+          "id":3,
+          "name": "royal enfield",
+          "insights": [
             {
-              "name": "DM Book",
-              "url": "https://drive.google.com/file/d/1xisa89gbYaXVrtSttE2675IJye2vcOwJ/view?usp=drive_link"
-            },
-            {
-              "name": "DM Complete Class Notes",
-              "url": "https://drive.google.com/file/d/14UI4DgOKx-6su55YOHOXfRigNgUDKrDb/view?usp=drive_link"
-            },
-            {
-              "name": "DM Lecture Notes",
-              "url": "https://drive.google.com/file/d/1L-wGCy6j0u_lFCPnhPYfsjMNGAcYWN6O/view?usp=drive_link"
-            },
-            {
-              "name": "DM Solutions",
-              "url": "https://drive.google.com/file/d/16-dQ5ZFDMR6vQaiBVU9ErLHrhryuh00a/view?usp=drive_link"
-            }
-          ],
-          "thumbnail": "https://m.media-amazon.com/images/I/61g-4Fx0ieL._AC_UF1000,1000_QL80_.jpg"
-        },
+              "url1": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url2": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url3": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
 
-        {
-          "name": "PME",
-          "notes": [
-            {
-              "name": "HandOuts",
-              "url": "https://drive.google.com/drive/folders/154c8WD55yZFauQK2EIE_IybUR_B4UXU4?usp=drive_link"
-            },
-            {
-              "name": "Solutions",
-              "url": "https://drive.google.com/drive/folders/18BxjM27CuaQ5uP4JI8o33dKXnZrCKP0h?usp=drive_link"
-            },
-            {
-              "name": "Handwritten Notes",
-              "url": "https://drive.google.com/drive/folders/1FhHa_5wvogeICdUjX6HZ1WedPaCD9bjP?usp=drive_link"
-            },
-            {
-              "name": "Lesson Plan",
-              "url": "https://drive.google.com/drive/folders/1XpEs4p14Fr0KRGsM0yzg-RB5j-jTSV66?usp=drive_link"
+              "showroom price": "1,71,000",
+              "onroad price": "1,99,000",
+              "engine configuration": "Petrol",
+              "mileage": "16.2km/l",
+              "engine capacity": "350cc"
             }
           ],
-          "thumbnail": "https://m.media-amazon.com/images/I/51-axy9YGeL._AC_UF1000,1000_QL80_.jpg"
-        }
+          "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSSYi9u5rjUKi8QlHQEjWQD2l7QMUMiVomrw&usqp=CAU"
+        },
+        {
+          "id":4,
+          "name": "R15",
+          "insights": [
+            {
+              "url1": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url2": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url3": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+
+              "showroom price": "1,71,000",
+              "onroad price": "1,99,000",
+              "engine configuration": "Petrol",
+              "mileage": "16.2km/l",
+              "engine capacity": "350cc"
+            }
+          ],
+          "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSSYi9u5rjUKi8QlHQEjWQD2l7QMUMiVomrw&usqp=CAU"
+        },
+        {
+          "id":5,
+          "name": "Honda Shine",
+          "insights": [
+            {
+              "url1": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url2": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url3": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+
+              "showroom price": "1,71,000",
+              "onroad price": "1,99,000",
+              "engine configuration": "Petrol",
+              "mileage": "16.2km/l",
+              "engine capacity": "350cc"
+            }
+          ],
+          "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSSYi9u5rjUKi8QlHQEjWQD2l7QMUMiVomrw&usqp=CAU"
+        },
+        {
+          "id":6,
+          "name": "Hero Honda",
+          "insights": [
+            {
+              "url1": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url2": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url3": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+
+              "showroom price": "1,71,000",
+              "onroad price": "1,99,000",
+              "engine configuration": "Petrol",
+              "mileage": "16.2km/l",
+              "engine capacity": "350cc"
+            }
+          ],
+          "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSSYi9u5rjUKi8QlHQEjWQD2l7QMUMiVomrw&usqp=CAU"
+        } 
       ]
     },
 
+
+
+
+
     {
       "id": 2,
-      "year": "Second Year",
-      "subjects": [
+      "vehicle": "Four-Wheelers",
+      "details": [
         {
-          "name": "Algorithm Design I",
-          "notes": [
+          "name": "maruti 200RS",
+          "insights": [
             {
-              "name": "Assignment",
-              "url": "https://drive.google.com/drive/folders/1S3tci5j6iQ0bMBf7RpvZzleSoD0Mh1I6?usp=drive_link"
-            },
-            {
-              "name": "Other Resources",
-              "url": "https://drive.google.com/drive/folders/1Ix3Mo4k1tD6_cD_gCQJljzOHLnvtlDR0?usp=drive_link"
-            },
-            {
-              "name": "Question Paper",
-              "url": "https://drive.google.com/drive/folders/1AQOL73qOpT_alHR6lBpHRlajFxpMjpaH?usp=drive_link"
-            },
-            {
-              "name": "Book",
-              "url": "https://drive.google.com/file/d/1aE38KS3oW_WO4ruYJ0UY3IbJjKOcf7Yz/view?usp=drive_link"
+              "url1": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url2": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url3": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+
+              "showroom price": "1,71,000",
+              "onroad price": "1,99,000",
+              "engine configuration": "Petrol",
+              "mileage": "16.2km/l",
+              "engine capacity": "350cc"
             }
           ],
-          "thumbnail": "https://m.media-amazon.com/images/I/616yIIyO+kL._AC_UF1000,1000_QL80_.jpg"
+          "thumbnail":"https://stimg.cardekho.com/images/carexteriorimages/930x620/Mahindra/Thar/10743/1690192572470/front-left-side-47.jpg"
+        },
+        {
+          "name": "swift 200RS",
+          "insights": [
+            {
+              "url1": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url2": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url3": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+
+              "showroom price": "1,71,000",
+              "onroad price": "1,99,000",
+              "engine configuration": "Petrol",
+              "mileage": "16.2km/l",
+              "engine capacity": "350cc"
+            }
+          ],
+          "thumbnail":"https://stimg.cardekho.com/images/carexteriorimages/930x620/Mahindra/Thar/10743/1690192572470/front-left-side-47.jpg"
         },
 
         {
-          "name": "Algorithm Design II",
-          "notes": [
+          "name": "volvo 200RS",
+          "insights": [
             {
-              "name": "Assignments",
-              "url": "https://drive.google.com/drive/folders/1cfSSKdjQQKuPP1jhUUH9MMpGfNVBE7W3?usp=drive_link"
-            },
-            {
-              "name": "Projects",
-              "url": "https://drive.google.com/drive/folders/1im7m59-_eOwlz466lNW0_DMXrurD_UyH?usp=drive_link"
-            },
-            {
-              "name": "Resources",
-              "url": "https://drive.google.com/drive/folders/14WgpPFWD7Y8x6rXVeuUKHEGd0WKROJ91?usp=drive_link"
+              "url1": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url2": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+              "url3": "https://drive.google.com/drive/folders/1LUB7RYfB2TYETJPtDccHlJoeGQ1VXlU0?usp=drive_link",
+
+              "showroom price": "1,71,000",
+              "onroad price": "1,99,000",
+              "engine configuration": "Petrol",
+              "mileage": "16.2km/l",
+              "engine capacity": "350cc"
             }
           ],
-          "thumbnail": "https://m.media-amazon.com/images/I/616yIIyO+kL._AC_UF1000,1000_QL80_.jpg"
-        },
-        {
-          "name": "Applied Linear Alzebra",
-          "notes": [
-            {
-              "name": "Ch:1",
-              "url": "https://drive.google.com/drive/folders/1Cb4MaYvpwAA7pHSFCWn-R9bG_tlxphXy?usp=drive_link"
-            },
-            {
-              "name": "Ch:2",
-              "url": "https://drive.google.com/drive/folders/106998Q_EpXcm_DiwTR9d-YKigzOCX1md?usp=drive_link"
-            },
-            {
-              "name": "Ch:3",
-              "url": "https://drive.google.com/drive/folders/13icu4M9ty0iUTwtGSX2rUgCF2k7YH_jS?usp=drive_link"
-            },
-            {
-              "name": "Complete Notes",
-              "url": "https://drive.google.com/file/d/1RSAWmLM_k0bVl-0SxVXxvgMF5LpNfw61/view?usp=drive_link"
-            },
-            {
-              "name": "ALA 1-19",
-              "url": "https://drive.google.com/file/d/1UrB15jYqWQB5Il8wFKhTMc9WeVfynmoo/view?usp=drive_link"
-            }
-          ],
-          "thumbnail": "https://m.media-amazon.com/images/I/51kHWUoiR5L._AC_UF1000,1000_QL80_.jpg"
-        },
-        {
-          "name": "COA",
-          "notes": [
-            {
-              "name": "Resources",
-              "url": "https://drive.google.com/drive/folders/1U76EY21gQREUmFi7gLx1zlRIiEi_WfJV?usp=drive_link"
-            }
-          ],
-          "thumbnail": "https://media.springernature.com/full/springer-static/cover-hires/book/978-981-16-5662-0"
-        },
-        {
-          "name": "CSW II",
-          "notes": [
-            {
-              "name": "Assignment 2A",
-              "url": "https://drive.google.com/drive/folders/18yuWpTJlQH9EzHUN_SRUud2_mro-iYbz?usp=drive_link"
-            },
-            {
-              "name": "Assignment 2B",
-              "url": "https://drive.google.com/drive/folders/1KW_zeBuz6FBoGvR6YHIoq-GEjkKMeVC4?usp=drive_link"
-            },
-            {
-              "name": "Assignment 3",
-              "url": "https://drive.google.com/drive/folders/1Kls2e2x1GRwJUSucxNWlWYh3dJQT72Wq?usp=drive_link"
-            },
-            {
-              "name": "Assignment 4",
-              "url": "https://drive.google.com/drive/folders/1mnAWYNfkC_RifnT36r6IEJYElAI1zMHu?usp=drive_link"
-            },
-            {
-              "name": "Assignment Questions",
-              "url": "https://drive.google.com/drive/folders/1CebqQdTur80U1ZrpyYObcubQUcdc6kjj?usp=drive_link"
-            },
-            {
-              "name": "Core Java",
-              "url": "https://drive.google.com/drive/folders/1hg05R1pXE4pYC1Fm_e53cXoFOfxixXKt?usp=drive_link"
-            }
-          ],
-          "thumbnail": "https://m.media-amazon.com/images/I/41+Bik0tUlL.jpg"
-        },
-        {
-          "name": "UHV",
-          "notes": [
-            {
-              "name": "Lectures",
-              "url": "https://drive.google.com/drive/folders/1VX0CbvdJkemd2j79uroy8jX7U0WC7_jS?usp=drive_link"
-            }
-          ],
-          "thumbnail": "https://rukminim2.flixcart.com/image/850/1000/xif0q/book/n/m/p/universal-human-values-original-imagzkgpnghftfpr.jpeg?q=90"
-        }
+          "thumbnail":"https://stimg.cardekho.com/images/carexteriorimages/930x620/Mahindra/Thar/10743/1690192572470/front-left-side-47.jpg"
+        } 
       ]
     }
   ]
