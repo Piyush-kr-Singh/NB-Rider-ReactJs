@@ -22,7 +22,7 @@ const Home = () => {
         </header>
 
         <section className=" container">
-          <h1 className='mt-5 mb-3' align='center' style={{ fontWeight: '700', fontSize: '5vw' }}>Explore Some of the Vehicles with <span>NB Rider</span></h1>
+          <h1 className='mt-5 mb-3' align='center' style={{ fontWeight: '700', fontSize: '4vw' }}>Explore Some of the Vehicles with <span>NB Rider</span></h1>
 
           <p className='mb-4' align='center' style={{ fontFamily: "times new roman", fontSize: '2vw', color: 'rgba(0,0,0,0.5)' }}>Unleash the power of expert insights! & Join the ride </p>
 
@@ -34,7 +34,7 @@ const Home = () => {
                   <h4 align='center' className="card-title" style={{ fontWeight: '700' }}>Mahindra Thar</h4>
                   <p className="card-text" style={{ fontSize: '18px' }}>Enjoy the experience with Mahindra Thar 4X4.</p>
                   <div className="d-flex justify-content-center">
-                    <a href="https://youtu.be/K1DvZH7rLT4" target='blank'><button className='btns'>View Video</button></a>
+                    <a href="https://youtu.be/K1DvZH7rLT4" target='blank'><button className='btns'>See Video</button></a>
                   </div>
                 </div>
               </div>
@@ -43,10 +43,10 @@ const Home = () => {
               <div className="card">
                 <div className="card-body">
                   <img className="card-img-top" src={bg06} alt="Card image cap" />
-                  <h4 className="card-title" align='center' style={{ fontWeight: '700' }}>Toyota</h4>
-                  <p className="card-text" style={{ fontSize: '18px' }}>Best Vehicle in this price segement offered by Toyota.</p>
+                  <h4 className="card-title my-3" align='center' style={{ fontWeight: '700' }}>Toyota</h4>
+                  <p className="card-text" style={{ fontSize: '18px' }}>Best Vehicle in this price segement offered by Toyota. One of the finest vehicle by Japanese company.</p>
                   <div className="d-flex justify-content-center">
-                    <a href="https://youtu.be/5peDBVVZ1hc" target='blank'><button className='btns'>View Video</button></a>
+                    <a href="https://youtu.be/5peDBVVZ1hc" target='blank'><button className='btns'>See Video</button></a>
                   </div>
                 </div>
               </div>
@@ -55,10 +55,10 @@ const Home = () => {
               <div className="card">
                 <div className="card-body">
                   <img className="card-img-top" src={bg07} alt="Card image cap" />
-                  <h4 className="card-title" style={{ fontWeight: '700' }}>Mahindra Scorpio</h4>
+                  <h4 align='center' className="card-title" style={{ fontWeight: '700' }}>Mahindra Scorpio</h4>
                   <p className="card-text" style={{ fontSize: '18px' }}>Enjoy the experience with Mahindra Scorpio. One of the best Indian off-roading SUV.</p>
                   <div className="d-flex justify-content-center">
-                    <a href="https://youtu.be/YYO_UKhQsIU" target='blank'><button className='btns'>View Video</button></a>
+                    <a href="https://youtu.be/YYO_UKhQsIU" target='blank'><button className='btns'>See Video</button></a>
                   </div>
                 </div>
               </div>
@@ -71,7 +71,7 @@ const Home = () => {
 
           <p className='mb-4' align='center' style={{ fontFamily: "times new roman", fontSize: '2.3vw', color: 'rgba(0,0,0,0.5)' }}>Unleash the power of expert insights! & Join the ride with <span>NB Rider</span> </p>
 
-          <div className="row">
+          <div className="row my-3">
             <div className="col-md-4">
               <div className="card">
                 <div className="card-body">

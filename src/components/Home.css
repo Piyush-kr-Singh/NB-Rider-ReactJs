@@ -44,6 +44,7 @@
 .btns:hover{
     background-color: aqua;
     color: black !important;
+    font-weight: 700 !important;
 }
 
 .features {

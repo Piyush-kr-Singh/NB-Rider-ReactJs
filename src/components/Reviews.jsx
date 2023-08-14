@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Link } from 'react-router-dom';
 import './Reviews.css';
 import Footer from './Footer';
 import { useState, useEffect } from 'react';

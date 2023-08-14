@@ -14,6 +14,7 @@ import Reviews from './components/Reviews';
 import TwoWheelers from './components/TwoWheelers';
 import FourWheeler from './components/FourWheeler';
 import VehicleDetails from './components/VehicleDetails';
+import VehicleDetails2 from './components/VehicleDetails2';
 
 function App() {
   
@@ -30,7 +31,8 @@ function App() {
       <Route exact path="/reviews" element={<Reviews />}/>
       <Route exact path="/twowheeler" element={<TwoWheelers />}/>
       <Route exact path="/fourwheeler" element={<FourWheeler />}/>
-      <Route exact path="/vehicledetails" element={<VehicleDetails />}/>
+      <Route exact path="/vehicledetails/:id" element={<VehicleDetails />}/>
+      <Route exact path="/vehicledetails2/:id" element={<VehicleDetails2 />}/>
       </Routes>
       
       
