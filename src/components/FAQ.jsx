@@ -11,7 +11,7 @@ const FAQ = () => {
 
     return (
         <>
-        <h1 className='my-5' align='center' style={{fontSize:'4vw', fontWeight :'700'}}>FAQ's</h1>
+        <h1 className='my-5' align='center' style={{fontSize:'40px', fontWeight :'700'}}>FAQ's</h1>
         <div className='container '>
             <div className="accordion accordion-flush" id="accordionFlushExample">
                 {/* Accordion Item 1 */}
@@ -126,8 +126,6 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
         <Footer />

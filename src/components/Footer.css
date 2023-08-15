@@ -1,7 +1,7 @@
 
 
 .insta{
-    font-size: 2vw;
+    font-size: 22px;
 }
 .insta:hover
 {
@@ -11,7 +11,7 @@
 
 .discord
 {
-    font-size: 2vw;
+    font-size: 22px;
 }
 .discord:hover{
     color:rgb(57, 75, 180);
@@ -20,7 +20,7 @@
 
 
 .youtube{
-    font-size: 2vw;
+    font-size: 22px;
 }
 .youtube:hover{
     color: rgb(235, 15, 23);
@@ -29,7 +29,7 @@
 
 .fb
 {
-    font-size: 2vw;
+    font-size: 22px;
 }
 .fb:hover{
     color: #4267B2;
@@ -38,7 +38,7 @@
 
 .github
 {
-    font-size: 2vw;
+    font-size: 22px;
 }
 .github:hover
 {

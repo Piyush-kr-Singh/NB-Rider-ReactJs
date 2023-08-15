@@ -14,7 +14,7 @@ const Home = () => {
         <header>
           <div className="hero" >
             <div className="containers">
-              <h1 style={{ fontFamily: 'cursive' }}>Ride to your own tune with <span style={{ fontFamily: 'Times new Roman' }}>NB Rider</span> <br /> </h1>
+              <h1 style={{ fontFamily: 'fantasy' }}>Ride to your own tune with <span style={{ fontFamily: 'Times new Roman',fontWeight : '700' }}>NB Rider</span> <br /> </h1>
               <p style={{ fontFamily: 'serif', fontSize: '25px' }}>Discover a world of two-wheelers and four-wheel wonders!</p>
               <Link to='/reviews' className="btns">Get Started</Link>
             </div>
@@ -22,9 +22,9 @@ const Home = () => {
         </header>
 
         <section className=" container">
-          <h1 className='mt-5 mb-3' align='center' style={{ fontWeight: '700', fontSize: '4vw' }}>Explore Some of the Vehicles with <span>NB Rider</span></h1>
+          <h1 className='mt-5 mb-3' align='center' style={{ fontWeight: '700', fontSize: '49px' }}>Explore Some of the Vehicles with <span>NB Rider</span></h1>
 
-          <p className='mb-4' align='center' style={{ fontFamily: "times new roman", fontSize: '2vw', color: 'rgba(0,0,0,0.5)' }}>Unleash the power of expert insights! & Join the ride </p>
+          <p className='mb-4' align='center' style={{ fontFamily: "times new roman", fontSize: '20px', color: 'rgba(0,0,0,0.5)' }}>Unleash the power of expert insights! & Join the ride </p>
 
           <div className="row">
             <div className="col-md-4">
@@ -67,15 +67,15 @@ const Home = () => {
         </section>
 
         <section className='container'>
-          <h1 className='mt-5 mb-3' align='center' style={{ fontWeight: '700', fontSize: '5vw' }}>All-In-One <span>Platform</span></h1>
+          <h1 className='mt-5 mb-3' align='center' style={{ fontWeight: '700', fontSize: '50px' }}>All-In-One <span>Platform</span></h1>
 
-          <p className='mb-4' align='center' style={{ fontFamily: "times new roman", fontSize: '2.3vw', color: 'rgba(0,0,0,0.5)' }}>Unleash the power of expert insights! & Join the ride with <span>NB Rider</span> </p>
+          <p className='mb-4' align='center' style={{ fontFamily: "times new roman", fontSize: '20px', color: 'rgba(0,0,0,0.5)' }}>Unleash the power of expert insights! & Join the ride with <span>NB Rider</span> </p>
 
           <div className="row my-3">
             <div className="col-md-4">
               <div className="card">
                 <div className="card-body">
-                  <h4 className="card-title" style={{ fontWeight: '700' }}>Seamless Experience</h4>
+                  <h4 className="card-title" style={{ fontWeight: '700' }}>✅Seamless Experience</h4>
                   <p className="card-text" style={{ fontSize: '18px' }}>Experience the convenience of viewing your abouts and reviews effortlessly with NB Rider's user-friendly interface and advanced features.</p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Home = () => {
             <div className="col-md-4">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title" style={{ fontWeight: '700' }}>Collaborate with Ease</h5>
+                  <h5 className="card-title" style={{ fontWeight: '700' }}>✅Collaborate with Ease</h5>
                   <p className="card-text" style={{ fontSize: '18px' }}>Boost productivity by collaborating with friends, colleagues, or family members in real-time.</p>
                 </div>
               </div>
@@ -91,7 +91,7 @@ const Home = () => {
             <div className="col-md-4">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title" style={{ fontWeight: '700' }}>Intelligent Organization</h5>
+                  <h5 className="card-title" style={{ fontWeight: '700' }}>✅Intelligent Organization</h5>
                   <p className="card-text" style={{ fontSize: '18px' }}>Quickly find your own wished Vehicle based on Company name, model name or with any keyword.</p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const Home = () => {
             <div className="col-md-4">
               <div className="card">
                 <div className="card-body">
-                  <h4 className="card-title" style={{ fontWeight: '700' }}>Multi-Media Integration</h4>
+                  <h4 className="card-title" style={{ fontWeight: '700' }}>✅Multi-Media Integration</h4>
                   <p className="card-text" style={{ fontSize: '18px' }}>Enhance your experience in our website with multimedia elements like images, videos, texts.</p>
                 </div>
               </div>
@@ -110,7 +110,7 @@ const Home = () => {
             <div className="col-md-4">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title" style={{ fontWeight: '700' }}>Powerful Search Functionality</h5>
+                  <h5 className="card-title" style={{ fontWeight: '700' }}>✅Powerful Search Functionality</h5>
                   <p className="card-text" style={{ fontSize: '18px' }}>NB Rider's powerful search feature enables you to locate specific information within seconds.</p>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const Home = () => {
             <div className="col-md-4">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title" style={{ fontWeight: '700' }}>Customizable Templates</h5>
+                  <h5 className="card-title" style={{ fontWeight: '700' }}>✅Customizable Templates</h5>
                   <p className="card-text" style={{ fontSize: '18px' }}>Personalize your visit experience with customizable templates and with easy access in all devices.</p>
                 </div>
               </div>

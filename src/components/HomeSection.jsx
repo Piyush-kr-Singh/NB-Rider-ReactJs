@@ -13,8 +13,8 @@ const HomeSection = () => {
         <div>
             <section className='container mt-5'>
                 <div class=" container max-w mx-auto py-4 px-4">
-                    <h2 class="text text-4xl md:text-5xl font-bold text-center" style={{fontSize:'5vw'}}>Some <span>Best Reviews</span> of Vehicles</h2>
-                    <p class="text-center py-4 text-gray-600" style={{fontSize:'2vw'}}>More than just vehicles, they're dreams in motion</p>
+                    <h2 class="text text-4xl md:text-5xl font-bold text-center" style={{fontSize:'45px'}}>Some  <span>Best </span>Reviews</h2>
+                    <p class="text-center py-3 text-gray-600" style={{fontSize:'20px'}}>More than just vehicles, they're dreams in motion</p>
 
                     <div class="grid grid-rows-none md-grid-cols-5 py-4 gap-2 md-gap-4">
                         <img src={bg11} alt="pic1" class="w-full h-full object-cover col-span-2 md-col-span-3 row-span-2" />

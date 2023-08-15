@@ -15,6 +15,8 @@ import TwoWheelers from './components/TwoWheelers';
 import FourWheeler from './components/FourWheeler';
 import VehicleDetails from './components/VehicleDetails';
 import VehicleDetails2 from './components/VehicleDetails2';
+import Blogs from './components/Blogs';
+import BlogDetails from './components/BlogDetails';
 
 function App() {
   
@@ -36,11 +38,13 @@ function App() {
       </Routes>
       
       
-    <div className="container my-3">
     <Routes>
+      <Route exact path='/blogs' element={<Blogs />} />
+      <Route exact path="/blogdetails/:id" element={<BlogDetails />} />
     </Routes>
-    </div>
     </BrowserRouter>
+
+    
     </>
   )
 }

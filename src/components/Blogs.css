@@ -1,0 +1,12 @@
+.heross {
+    background: url(/src/photos/bg12.jpg) rgba(0, 0, 0, 0.51);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Changed to 100vh */
+    width: 100%; /* Changed to 100% */
+    background-blend-mode: darken;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}

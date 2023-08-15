@@ -26,7 +26,7 @@ export default function Navbar(Props) {
                         <Link className="nav-link" to='/reviews'>Reviews</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to='/'>Blogs</Link>
+                        <Link className="nav-link" to='/blogs'>Blogs</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to='/'>Contact</Link>
