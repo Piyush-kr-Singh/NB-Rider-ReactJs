@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import TwoWheelers from './TwoWheelers';
 import FourWheeler from './FourWheeler';
 import axios from 'axios';
+import Notify from './Notify';
 
 const Reviews = () => {
     const [preference, setPreference] = useState(null);
@@ -55,6 +56,7 @@ const Reviews = () => {
             {preference === 'Two-Wheelers' && <TwoWheelers />}
             {preference === 'Four-Wheelers' && <FourWheeler />}
 
+            <Notify />
             <Footer />
         </>
     )

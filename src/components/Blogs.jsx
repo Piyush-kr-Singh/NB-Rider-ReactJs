@@ -3,6 +3,7 @@ import axios from 'axios';
 import './Blogs.css';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import Notify from './Notify';
 
 const Blogs = () => {
 
@@ -63,7 +64,7 @@ const Blogs = () => {
                     ))}
                 </div>
             </div>
-
+            <Notify />
             <Footer />
         </>
     )

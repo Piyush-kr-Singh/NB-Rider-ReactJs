@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import Footer from './Footer';
 import Loading from './Loading';
+import Notify from './Notify';
 
 const BlogDetails = () => {
     const { id } = useParams();
@@ -25,7 +26,7 @@ const BlogDetails = () => {
 
     return (
         <>
-        <div className='container' style={{ marginTop: '15vh' }}>
+        <div className='container mb-5' style={{ marginTop: '15vh' }}>
             {selectedDetail ? (
                 <div className="card text-center">
                     <div className="card-header">
@@ -49,6 +50,7 @@ const BlogDetails = () => {
             )}
             
         </div>
+        <Notify />
         <Footer />
         </>
     )

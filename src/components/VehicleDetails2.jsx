@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Loading from './Loading';
+import Notify from './Notify';
 
 const VehicleDetails2 = () => {
     const { id } = useParams();
@@ -43,7 +44,7 @@ const VehicleDetails2 = () => {
 
             <h1 className='my-5' align='center' style={{ fontFamily: 'times new roman', fontWeight: '700' }}> {selectedDetail.name} </h1 >
 
-            <div className='container' style={{ fontFamily: 'fantasy', fontWeight: '500', border: '2px solid black' }}>
+            <div className='container mb-5' style={{ fontFamily: 'fantasy', fontWeight: '500', border: '2px solid black' }}>
                 <div className='mt-3 d-flex justify-content-between'>
                     <div>
                         SHOWROOM PRICE :
@@ -80,6 +81,8 @@ const VehicleDetails2 = () => {
                 </div>
 
             </div>
+
+            <Notify />
             <Footer />
         </>
     );

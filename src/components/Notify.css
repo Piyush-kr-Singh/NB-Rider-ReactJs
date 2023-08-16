@@ -1,0 +1,15 @@
+.btnsss{
+    background-color: rgb(0, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 700;
+    height: 45px;
+    width: 95px;
+    border-radius: 08%;
+}
+
+
+/* In your CSS file */
+.disabled-button {
+    background-color: gray !important; /* Change to your desired dimmed color */
+    cursor: not-allowed !important;
+} 

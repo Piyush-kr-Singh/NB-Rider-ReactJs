@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './FAQ.css';
 import Footer from './Footer';
+import Notify from './Notify';
 
 const FAQ = () => {
     const [activeAccordion, setActiveAccordion] = useState(null);
@@ -12,7 +13,7 @@ const FAQ = () => {
     return (
         <>
         <h1 className='my-5' align='center' style={{fontSize:'40px', fontWeight :'700'}}>FAQ's</h1>
-        <div className='container '>
+        <div className='container my-5'>
             <div className="accordion accordion-flush" id="accordionFlushExample">
                 {/* Accordion Item 1 */}
                 <div className="accordion-item my-4">
@@ -128,6 +129,7 @@ const FAQ = () => {
                 </div>
             </div>
         </div>
+        <Notify />
         <Footer />
         </>
     );

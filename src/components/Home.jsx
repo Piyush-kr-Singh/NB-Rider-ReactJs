@@ -22,7 +22,7 @@ const Home = () => {
         </header>
 
         <section className=" container">
-          <h1 className='mt-5 mb-3' align='center' style={{ fontWeight: '700', fontSize: '49px' }}>Explore Some of the Vehicles with <span>NB Rider</span></h1>
+          <h1 className='mt-5 mb-3' align='center' style={{ fontWeight: '700', fontSize: '49px' }}>Explore Some Vehicles with <span>NB Rider</span></h1>
 
           <p className='mb-4' align='center' style={{ fontFamily: "times new roman", fontSize: '20px', color: 'rgba(0,0,0,0.5)' }}>Unleash the power of expert insights! & Join the ride </p>
 
